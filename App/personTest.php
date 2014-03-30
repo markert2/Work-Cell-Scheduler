@@ -8,7 +8,7 @@ class PersonTestCase extends WebIS\Validator {
 
 	protected static $__CLASS__=__CLASS__;
 
-	function testTrainingApp() {
+	function testPerson() {
 		$p=new \WCS\Person();
 		$this->assertTrue($p->setPerson("DrMiddelkoop"));
 		$this->assertFalse($p->setPerson("Dr.Middelkoop"));
